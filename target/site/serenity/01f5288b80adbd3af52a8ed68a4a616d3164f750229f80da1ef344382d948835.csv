@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Calculate Annuity BDD Scenarios and Test Cases","Calculate Annuity from /calc-annuity rest service","SUCCESS","2019-02-26T02:10:39.357+05:00[Asia/Karachi]","0.0","1.7"
+"Generate Plan BDD Scenarios and Test Cases","The sum of all principal amounts in the schedule entries equals the total loan amount","SUCCESS","2019-02-26T02:10:49.165+05:00[Asia/Karachi]","0.0","0.07"
+"Generate Plan BDD Scenarios and Test Cases","The start date determines the first due date of the calculated schedule. We assume","SUCCESS","2019-02-26T02:10:49.424+05:00[Asia/Karachi]","0.0","0.05"
+"Generate Plan BDD Scenarios and Test Cases","The remaining outstanding principal of one entry equals the initial outstanding","SUCCESS","2019-02-26T02:10:49.534+05:00[Asia/Karachi]","0.0","0.02"
+"Generate Plan BDD Scenarios and Test Cases","The total payment amount per month in a borrower schedule should equal the value","SUCCESS","2019-02-26T02:10:49.634+05:00[Asia/Karachi]","0.0","0.12"

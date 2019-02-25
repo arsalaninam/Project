@@ -1,0 +1,8 @@
+com\lendico\assignment\stepdefinition\CalculateAnnuityTestCase.class
+com\lendico\assignment\service\ServiceURL.class
+com\lendico\assignment\stepdefinition\GeneratePlanTestCases.class
+com\lendico\assignment\util\PropertyUtil\PropertyReader.class
+com\lendico\assignment\util\restUtil\CalculateAnnuityUtil.class
+com\lendico\assignment\util\restUtil\RestUtilities.class
+com\lendico\assignment\util\restUtil\GeneratePlanUtil.class
+com\lendico\assignment\runner\Runner.class

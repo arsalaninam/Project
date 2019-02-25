@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Calculate Annuity BDD Scenarios and Test Cases","When duration is set as zero, validate it does not calculate annuity and an error is prompt","FAILURE","2019-02-26T02:10:49.001+05:00[Asia/Karachi]","0.0","0.03"
+"Generate Plan BDD Scenarios and Test Cases","The remaining outstanding principal of the last schedule entry equals always 0.00 €","FAILURE","2019-02-26T02:10:49.295+05:00[Asia/Karachi]","0.0","0.05"
