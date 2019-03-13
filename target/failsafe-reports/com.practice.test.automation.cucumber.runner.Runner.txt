@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.practice.test.automation.cucumber.runner.Runner
+-------------------------------------------------------------------------------
+Tests run: 33, Failures: 0, Errors: 0, Skipped: 33, Time elapsed: 14.003 sec - in com.practice.test.automation.cucumber.runner.Runner

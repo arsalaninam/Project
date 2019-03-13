@@ -61,31 +61,25 @@ formatter.step({
   "name": "details of \"5000\" , \"5.0\" and \u002724\u0027 to create calculate annuity request payload",
   "keyword": "Given "
 });
-formatter.match({
-  "location": "CalculateAnnuityTestCase.createJsonRequestPayloadOfCalcAnnuity(String,String,int)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "user invoke rest service to calculate annuity",
   "keyword": "When "
 });
-formatter.match({
-  "location": "CalculateAnnuityTestCase.invokeRestServiceToCalcAnnuity()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "validate correct annuity \"219.36\" is calculated successfully",
   "keyword": "Then "
 });
-formatter.match({
-  "location": "CalculateAnnuityTestCase.validateExpectedAnnuity(String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.scenario({
   "name": "Calculate Annuity from /calc-annuity rest service",
@@ -96,31 +90,25 @@ formatter.step({
   "name": "details of \"5000\" , \"5.0\" and \u002712\u0027 to create calculate annuity request payload",
   "keyword": "Given "
 });
-formatter.match({
-  "location": "CalculateAnnuityTestCase.createJsonRequestPayloadOfCalcAnnuity(String,String,int)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "user invoke rest service to calculate annuity",
   "keyword": "When "
 });
-formatter.match({
-  "location": "CalculateAnnuityTestCase.invokeRestServiceToCalcAnnuity()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "validate correct annuity \"428.04\" is calculated successfully",
   "keyword": "Then "
 });
-formatter.match({
-  "location": "CalculateAnnuityTestCase.validateExpectedAnnuity(String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.scenarioOutline({
   "name": "When duration is set as zero, validate it does not calculate annuity and an error is prompt",
@@ -171,32 +159,25 @@ formatter.step({
   "name": "details of \"5000\" , \"5.0\" and \u00270\u0027 to create calculate annuity request payload",
   "keyword": "Given "
 });
-formatter.match({
-  "location": "CalculateAnnuityTestCase.createJsonRequestPayloadOfCalcAnnuity(String,String,int)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "user invoke rest service to calculate annuity",
   "keyword": "When "
 });
-formatter.match({
-  "location": "CalculateAnnuityTestCase.invokeRestServiceToCalcAnnuity()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "validate correct annuity \"Invalid Duration Entered/Duration can not be zero\" is calculated successfully",
   "keyword": "Then "
 });
-formatter.match({
-  "location": "CalculateAnnuityTestCase.validateExpectedAnnuity(String)"
-});
+formatter.match({});
 formatter.result({
-  "error_message": "org.junit.ComparisonFailure: expected:\u003c[Invalid Duration Entered/Duration can not be zero]\u003e but was:\u003c[92233720368547758.07]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat com.lendico.assignment.stepdefinition.CalculateAnnuityTestCase.validateExpectedAnnuity(CalculateAnnuityTestCase.java:45)\r\n\tat ✽.validate correct annuity \"Invalid Duration Entered/Duration can not be zero\" is calculated successfully(src/test/resources/FeatureFile/calculateAnnuity.feature:18)\r\n",
-  "status": "failed"
+  "status": "undefined"
 });
 formatter.uri("src/test/resources/FeatureFile/generatePlan.feature");
 formatter.feature({
@@ -261,31 +242,25 @@ formatter.step({
   "name": "details of \"5000.0\",\"5.0\",\u002712\u0027 and \"2018-01-01\" to create generate Plan request payload",
   "keyword": "Given "
 });
-formatter.match({
-  "location": "GeneratePlanTestCases.createJsonRequestPayloadOfGeneratePlan(String,String,int,String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "user invoke rest service to generate Plan",
   "keyword": "When "
 });
-formatter.match({
-  "location": "GeneratePlanTestCases.invokeRestServiceToCalcAnnuity()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "validate sum of all principal amounts equals the total \"5000.0\" amount",
   "keyword": "Then "
 });
-formatter.match({
-  "location": "GeneratePlanTestCases.validateGeneratePlanPrincipal(String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.scenario({
   "name": "The sum of all principal amounts in the schedule entries equals the total loan amount",
@@ -296,31 +271,25 @@ formatter.step({
   "name": "details of \"1200.0\",\"2.0\",\u002710\u0027 and \"2019-01-01\" to create generate Plan request payload",
   "keyword": "Given "
 });
-formatter.match({
-  "location": "GeneratePlanTestCases.createJsonRequestPayloadOfGeneratePlan(String,String,int,String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "user invoke rest service to generate Plan",
   "keyword": "When "
 });
-formatter.match({
-  "location": "GeneratePlanTestCases.invokeRestServiceToCalcAnnuity()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "validate sum of all principal amounts equals the total \"1200.0\" amount",
   "keyword": "Then "
 });
-formatter.match({
-  "location": "GeneratePlanTestCases.validateGeneratePlanPrincipal(String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.scenarioOutline({
   "name": "The remaining outstanding principal of the last schedule entry equals always 0.00 €",
@@ -382,31 +351,25 @@ formatter.step({
   "name": "details of \"5000.0\",\"5.0\",\u002712\u0027 and \"2018-01-01\" to create generate Plan request payload",
   "keyword": "Given "
 });
-formatter.match({
-  "location": "GeneratePlanTestCases.createJsonRequestPayloadOfGeneratePlan(String,String,int,String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "user invoke rest service to generate Plan",
   "keyword": "When "
 });
-formatter.match({
-  "location": "GeneratePlanTestCases.invokeRestServiceToCalcAnnuity()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "validate \"0.00\" of the last schedule entry equals always 0.00",
   "keyword": "Then "
 });
-formatter.match({
-  "location": "GeneratePlanTestCases.validateRemainingOutstandingPrincipal(String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.scenario({
   "name": "The remaining outstanding principal of the last schedule entry equals always 0.00 €",
@@ -417,32 +380,25 @@ formatter.step({
   "name": "details of \"5000.0\",\"5.0\",\u00273\u0027 and \"2018-01-01\" to create generate Plan request payload",
   "keyword": "Given "
 });
-formatter.match({
-  "location": "GeneratePlanTestCases.createJsonRequestPayloadOfGeneratePlan(String,String,int,String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "user invoke rest service to generate Plan",
   "keyword": "When "
 });
-formatter.match({
-  "location": "GeneratePlanTestCases.invokeRestServiceToCalcAnnuity()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "validate \"0.00\" of the last schedule entry equals always 0.00",
   "keyword": "Then "
 });
-formatter.match({
-  "location": "GeneratePlanTestCases.validateRemainingOutstandingPrincipal(String)"
-});
+formatter.match({});
 formatter.result({
-  "error_message": "java.lang.AssertionError: expected:\u003c0.0\u003e but was:\u003c0.01\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat com.lendico.assignment.stepdefinition.GeneratePlanTestCases.validateRemainingOutstandingPrincipal(GeneratePlanTestCases.java:63)\r\n\tat ✽.validate \"0.00\" of the last schedule entry equals always 0.00(src/test/resources/FeatureFile/generatePlan.feature:19)\r\n",
-  "status": "failed"
+  "status": "undefined"
 });
 formatter.scenarioOutline({
   "name": "The start date determines the first due date of the calculated schedule. We assume",
@@ -501,31 +457,25 @@ formatter.step({
   "name": "details of \"5000.0\",\"5.0\",\u00274\u0027 and \"2018-01-01\" to create generate Plan request payload",
   "keyword": "Given "
 });
-formatter.match({
-  "location": "GeneratePlanTestCases.createJsonRequestPayloadOfGeneratePlan(String,String,int,String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "user invoke rest service to generate Plan",
   "keyword": "When "
 });
-formatter.match({
-  "location": "GeneratePlanTestCases.invokeRestServiceToCalcAnnuity()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "validate each schedule entry is always due on the same day as the \"2018-01-01\"",
   "keyword": "Then "
 });
-formatter.match({
-  "location": "GeneratePlanTestCases.validateMonthlyDueDate(String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.scenario({
   "name": "The start date determines the first due date of the calculated schedule. We assume",
@@ -536,31 +486,25 @@ formatter.step({
   "name": "details of \"8000.0\",\"4.0\",\u00276\u0027 and \"2018-02-04\" to create generate Plan request payload",
   "keyword": "Given "
 });
-formatter.match({
-  "location": "GeneratePlanTestCases.createJsonRequestPayloadOfGeneratePlan(String,String,int,String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "user invoke rest service to generate Plan",
   "keyword": "When "
 });
-formatter.match({
-  "location": "GeneratePlanTestCases.invokeRestServiceToCalcAnnuity()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "validate each schedule entry is always due on the same day as the \"2018-02-04\"",
   "keyword": "Then "
 });
-formatter.match({
-  "location": "GeneratePlanTestCases.validateMonthlyDueDate(String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.scenarioOutline({
   "name": "The remaining outstanding principal of one entry equals the initial outstanding",
@@ -611,31 +555,25 @@ formatter.step({
   "name": "details of \"5000.00\",\"5.0\",\u00274\u0027 and \"2018-01-01\" to create generate Plan request payload",
   "keyword": "Given "
 });
-formatter.match({
-  "location": "GeneratePlanTestCases.createJsonRequestPayloadOfGeneratePlan(String,String,int,String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "user invoke rest service to generate Plan",
   "keyword": "When "
 });
-formatter.match({
-  "location": "GeneratePlanTestCases.invokeRestServiceToCalcAnnuity()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "validate remaining outstanding principal of one entry equals the initial outstanding principal of the following month",
   "keyword": "Then "
 });
-formatter.match({
-  "location": "GeneratePlanTestCases.validateRemOutPrincipal()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.scenarioOutline({
   "name": "The total payment amount per month in a borrower schedule should equal the value",
@@ -686,30 +624,24 @@ formatter.step({
   "name": "details of \"5000.00\",\"5.0\",\u00274\u0027 and \"2018-01-01\" to create generate Plan request payload",
   "keyword": "Given "
 });
-formatter.match({
-  "location": "GeneratePlanTestCases.createJsonRequestPayloadOfGeneratePlan(String,String,int,String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "user invoke rest service to generate Plan",
   "keyword": "When "
 });
-formatter.match({
-  "location": "GeneratePlanTestCases.invokeRestServiceToCalcAnnuity()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "validate borrowerPaymentAmount of each month should be equal except the last month which can differ",
   "keyword": "Then "
 });
-formatter.match({
-  "location": "GeneratePlanTestCases.validateBorrowerPaymentAmount()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 });

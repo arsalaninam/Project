@@ -1,7 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0a05505-cea4-4977-98ff-5511b667fd25" name="Default Changelist" comment="" />
+    <list default="true" id="c0a05505-cea4-4977-98ff-5511b667fd25" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json_output/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/json_output/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_xml/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/junit_xml/cucumber.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lendico/assignment/runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/practice/test/automation/cucumber/runner/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lendico/assignment/service/ServiceURL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/practice/test/automation/cucumber/service/ServiceURL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lendico/assignment/stepdefinition/CalculateAnnuityTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/practice/test/automation/cucumber/stepdefinition/CalculateAnnuityTestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lendico/assignment/stepdefinition/GeneratePlanTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/practice/test/automation/cucumber/stepdefinition/GeneratePlanTestCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lendico/assignment/util/PropertyUtil/PropertyReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/practice/test/automation/cucumber/util/PropertyUtil/PropertyReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lendico/assignment/util/restUtil/CalculateAnnuityUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/practice/test/automation/cucumber/util/restUtil/CalculateAnnuityUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lendico/assignment/util/restUtil/GeneratePlanUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/practice/test/automation/cucumber/util/restUtil/GeneratePlanUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lendico/assignment/util/restUtil/RestUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/practice/test/automation/cucumber/util/restUtil/RestUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lendico.assignment.automation-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-com.lendico.assignment.runner.Runner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/com.lendico.assignment.runner.Runner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/0b375454356cb340936c9d0716a97bcb80e67ba206d12bf5a2a9202abe6b8f5a.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/0b375454356cb340936c9d0716a97bcb80e67ba206d12bf5a2a9202abe6b8f5a.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/0b375454356cb340936c9d0716a97bcb80e67ba206d12bf5a2a9202abe6b8f5a.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/0b375454356cb340936c9d0716a97bcb80e67ba206d12bf5a2a9202abe6b8f5a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/3d4fcf0a4d98c7517b21daf521b62b1f6592100ead2269b178cbcbbbed129274.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/3d4fcf0a4d98c7517b21daf521b62b1f6592100ead2269b178cbcbbbed129274.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/3d4fcf0a4d98c7517b21daf521b62b1f6592100ead2269b178cbcbbbed129274.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/3d4fcf0a4d98c7517b21daf521b62b1f6592100ead2269b178cbcbbbed129274.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/5a614a961ed9013f70cdadf0f08f522b53278412b7967d5244cd94fcaa13ed8a.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/5a614a961ed9013f70cdadf0f08f522b53278412b7967d5244cd94fcaa13ed8a.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/5a614a961ed9013f70cdadf0f08f522b53278412b7967d5244cd94fcaa13ed8a.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/5a614a961ed9013f70cdadf0f08f522b53278412b7967d5244cd94fcaa13ed8a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/5d801da723801bbf5dc24b51af1f64e2812eb3eff910ff6988b749b8449620e5.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/5d801da723801bbf5dc24b51af1f64e2812eb3eff910ff6988b749b8449620e5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/5d801da723801bbf5dc24b51af1f64e2812eb3eff910ff6988b749b8449620e5.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/5d801da723801bbf5dc24b51af1f64e2812eb3eff910ff6988b749b8449620e5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/69920e8d5fb557d1bd1143b2626a3cff8dc1eaf44ae78db599760476e947ff23.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/69920e8d5fb557d1bd1143b2626a3cff8dc1eaf44ae78db599760476e947ff23.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/69920e8d5fb557d1bd1143b2626a3cff8dc1eaf44ae78db599760476e947ff23.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/69920e8d5fb557d1bd1143b2626a3cff8dc1eaf44ae78db599760476e947ff23.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/7184287b610d0fa8097a80088d213370c95d1b3385e90fe66c95d6d958db1431.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/7184287b610d0fa8097a80088d213370c95d1b3385e90fe66c95d6d958db1431.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/7184287b610d0fa8097a80088d213370c95d1b3385e90fe66c95d6d958db1431.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/7184287b610d0fa8097a80088d213370c95d1b3385e90fe66c95d6d958db1431.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-7184287b610d0fa8097a80088d213370c95d1b3385e90fe66c95d6d958db1431.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-7184287b610d0fa8097a80088d213370c95d1b3385e90fe66c95d6d958db1431.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-ff39ddacc80dc0b03ed1cf747a8652a08374921898c4928e1b4ca4906749f3b0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-ff39ddacc80dc0b03ed1cf747a8652a08374921898c4928e1b4ca4906749f3b0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/a0ace456df350117335ad374e8d62c0d8c978db868ea1469e0c5ba32aac965ea.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/build-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/build-info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/capabilities.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/capabilities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/da5b0c51b332adf0ef993a9f086d6a1b51a3d800248ec6ae281212092f35bd37.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/da5b0c51b332adf0ef993a9f086d6a1b51a3d800248ec6ae281212092f35bd37.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/ff39ddacc80dc0b03ed1cf747a8652a08374921898c4928e1b4ca4906749f3b0.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/ff39ddacc80dc0b03ed1cf747a8652a08374921898c4928e1b4ca4906749f3b0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/ff39ddacc80dc0b03ed1cf747a8652a08374921898c4928e1b4ca4906749f3b0.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/ff39ddacc80dc0b03ed1cf747a8652a08374921898c4928e1b4ca4906749f3b0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/results.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/summary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/summary.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lendico/assignment/runner/Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lendico/assignment/service/ServiceURL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lendico/assignment/stepdefinition/CalculateAnnuityTestCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lendico/assignment/stepdefinition/GeneratePlanTestCases.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lendico/assignment/util/PropertyUtil/PropertyReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lendico/assignment/util/restUtil/CalculateAnnuityUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lendico/assignment/util/restUtil/GeneratePlanUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lendico/assignment/util/restUtil/RestUtilities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-outout/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/test-outout/report.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,10 +71,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/lendico/assignment/runner/Runner.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/practice/test/automation/cucumber/runner/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="153">
+              <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -24,22 +82,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/target/site/serenity/index.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/practice/test/automation/cucumber/service/ServiceURL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="83" lean-forward="true" selection-start-line="20" selection-start-column="83" selection-end-line="20" selection-end-column="83" />
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/site/serenity/5d801da723801bbf5dc24b51af1f64e2812eb3eff910ff6988b749b8449620e5.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/lendico/assignment/util/restUtil/CalculateAnnuityUtil.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/practice/test/automation/cucumber/util/restUtil/CalculateAnnuityUtil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
@@ -50,16 +103,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/FeatureFile/generatePlan.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-114">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="549">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/lendico/assignment/stepdefinition/CalculateAnnuityTestCase.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/practice/test/automation/cucumber/stepdefinition/CalculateAnnuityTestCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
+            <state relative-caret-position="255">
               <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -69,10 +122,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/lendico/assignment/stepdefinition/GeneratePlanTestCases.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/practice/test/automation/cucumber/stepdefinition/GeneratePlanTestCases.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            <state relative-caret-position="68">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,11 +133,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+            <state relative-caret-position="170">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -111,6 +164,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -159,7 +215,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -171,7 +227,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,63 +269,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NisumPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NisumPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment" type="462c0819:PsiDirectoryNode" />
-              <item name="runner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NisumPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NisumPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NisumPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NisumPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment" type="462c0819:PsiDirectoryNode" />
-              <item name="stepdefinition" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NisumPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NisumPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NisumPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NisumPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="PropertyUtil" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NisumPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NisumPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="restUtil" type="462c0819:PsiDirectoryNode" />
+              <item name="cucumber" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NisumPractice" type="b2602c69:ProjectViewProjectNode" />
@@ -292,27 +291,15 @@
               <item name="NisumPractice" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="NisumPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NisumPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NisumPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NisumPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
-              <item name="serenity" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551129123143" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552504561759" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -451,10 +438,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26701966" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27458397" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -470,8 +457,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.95090014" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -510,14 +497,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lendico/assignment/service/ServiceURL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lendico/assignment/util/PropertyUtil/PropertyReader.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/practice/test/automation/cucumber/util/PropertyUtil/PropertyReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
@@ -534,14 +514,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lendico/assignment/util/restUtil/GeneratePlanUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/practice/test/automation/cucumber/util/restUtil/GeneratePlanUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lendico/assignment/util/restUtil/RestUtilities.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/practice/test/automation/cucumber/util/restUtil/RestUtilities.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
@@ -551,16 +531,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lendico/assignment/util/restUtil/CalculateAnnuityUtil.java">
+    <entry file="file://$PROJECT_DIR$/target/site/serenity/5d801da723801bbf5dc24b51af1f64e2812eb3eff910ff6988b749b8449620e5.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/practice/test/automation/cucumber/runner/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/practice/test/automation/cucumber/service/ServiceURL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lendico/assignment/stepdefinition/CalculateAnnuityTestCase.java">
+    <entry file="file://$PROJECT_DIR$/target/site/serenity/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="340">
+          <caret line="20" column="83" selection-start-line="20" selection-start-column="83" selection-end-line="20" selection-end-column="83" />
+          <folding>
+            <element signature="n#style#0;n#br#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#13636#13642#0" expanded="true" />
+            <element signature="e#14286#14292#0" expanded="true" />
+            <element signature="e#14912#14918#0" expanded="true" />
+            <element signature="e#15540#15546#0" expanded="true" />
+            <element signature="e#16309#16315#1" expanded="true" />
+            <element signature="e#16953#16959#0" expanded="true" />
+            <element signature="e#17630#17636#0" expanded="true" />
+            <element signature="e#18295#18301#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#5;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#5;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#5;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#5;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#5;n#tr#4;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#5;n#tr#5;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/practice/test/automation/cucumber/util/restUtil/CalculateAnnuityUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/practice/test/automation/cucumber/stepdefinition/CalculateAnnuityTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
           <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -568,35 +593,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/site/serenity/5d801da723801bbf5dc24b51af1f64e2812eb3eff910ff6988b749b8449620e5.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lendico/assignment/stepdefinition/GeneratePlanTestCases.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/practice/test/automation/cucumber/stepdefinition/GeneratePlanTestCases.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="68">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/json_output/cucumber.json">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/FeatureFile/generatePlan.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/FeatureFile/calculateAnnuity.feature">
       <provider selected="true" editor-type-id="text-editor">
@@ -605,20 +613,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lendico/assignment/runner/Runner.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/FeatureFile/generatePlan.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="549">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/site/serenity/index.html">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="83" lean-forward="true" selection-start-line="20" selection-start-column="83" selection-end-line="20" selection-end-column="83" />
+        <state relative-caret-position="170">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.practice.test.automation.cucumber.runner.Runner" time="14.003" tests="33" errors="0" skipped="33" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="F:\LearningStuff\PracticalWork\Frameworks\NisumPractice"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="F:\LearningStuff\PracticalWork\Frameworks\NisumPractice"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Ainam\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\Apache\Maven\apache-maven-3.5.4\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\Apache\Maven\apache-maven-3.5.4\bin;%TIBEMS_ROOT%\lib;;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Users\Ainam\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="maven.conf" value="C:\Program Files\Apache\Maven\apache-maven-3.5.4\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\Apache\Maven\apache-maven-3.5.4\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Ainam"/>
+    <property name="user.timezone" value="Asia/Karachi"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Ainam"/>
+    <property name="java.class.path" value="C:\Program Files\Apache\Maven\apache-maven-3.5.4\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_181\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\Apache\Maven\apache-maven-3.5.4\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Calculate Annuity from /calc-annuity rest service" classname="Calculate Annuity BDD Scenarios and Test Cases" time="0">
+    <skipped/>
+    <system-out><![CDATA[Feature: Calculate Annuity BDD Scenarios and Test Cases
+
+  Scenario Outline: Calculate Annuity from /calc-annuity rest service # src/test/resources/FeatureFile/calculateAnnuity.feature:3
+    Given details of "<loanAmount>" , "<nominalRate>" and '<duration>' to create calculate annuity request payload
+    When user invoke rest service to calculate annuity
+    Then validate correct annuity "<expectedAnnuity>" is calculated successfully
+
+    Examples: 
+
+  Scenario Outline: Calculate Annuity from /calc-annuity rest service                    # src/test/resources/FeatureFile/calculateAnnuity.feature:11
+    Given details of "5000" , "5.0" and '24' to create calculate annuity request payload # null
+    When user invoke rest service to calculate annuity                                   # null
+    Then validate correct annuity "219.36" is calculated successfully                    # null
+]]></system-out>
+    <system-err><![CDATA[[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - &amp#27;[36m
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Rocket Chat at https://serenity-bdd.rocket.chat      
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+ Learn Serenity BDD online at http://serenity-dojo.com                               
+-------------------------------------------------------------------------------------
+&amp#27;[0m
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Calculate Annuity BDD Scenarios and Test Cases
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Generate Plan BDD Scenarios and Test Cases
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Calculate Annuity from /calc-annuity rest service
+-------------------------------------------------------------------(calculate-annuity-bdd-scenarios-and-test-cases;calculate-annuity-from-/calc-annuity-rest-service)
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+                                                                                
+
+TEST PENDING: Calculate Annuity from /calc-annuity rest service
+---------------------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="Calculate Annuity from /calc-annuity rest service" classname="Calculate Annuity BDD Scenarios and Test Cases" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Calculate Annuity from /calc-annuity rest service" classname="Calculate Annuity BDD Scenarios and Test Cases" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Calculate Annuity from /calc-annuity rest service" classname="Calculate Annuity BDD Scenarios and Test Cases" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+  Scenario Outline: Calculate Annuity from /calc-annuity rest service                    # src/test/resources/FeatureFile/calculateAnnuity.feature:12
+    Given details of "5000" , "5.0" and '12' to create calculate annuity request payload # null
+    When user invoke rest service to calculate annuity                                   # null
+    Then validate correct annuity "428.04" is calculated successfully                    # null
+]]></system-out>
+    <system-err><![CDATA[[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+                                                                                
+
+TEST PENDING: Calculate Annuity from /calc-annuity rest service
+---------------------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="Calculate Annuity from /calc-annuity rest service" classname="Calculate Annuity BDD Scenarios and Test Cases" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Calculate Annuity from /calc-annuity rest service" classname="Calculate Annuity BDD Scenarios and Test Cases" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When duration is set as zero, validate it does not calculate annuity and an error is prompt" classname="Calculate Annuity BDD Scenarios and Test Cases" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+  Scenario Outline: When duration is set as zero, validate it does not calculate annuity and an error is prompt # src/test/resources/FeatureFile/calculateAnnuity.feature:14
+    Given details of "<loanAmount>" , "<nominalRate>" and '<duration>' to create calculate annuity request payload
+    When user invoke rest service to calculate annuity
+    Then validate correct annuity "<expectedErrorMessage>" is calculated successfully
+
+    Examples: 
+
+  Scenario Outline: When duration is set as zero, validate it does not calculate annuity and an error is prompt  # src/test/resources/FeatureFile/calculateAnnuity.feature:22
+    Given details of "5000" , "5.0" and '0' to create calculate annuity request payload                          # null
+    When user invoke rest service to calculate annuity                                                           # null
+    Then validate correct annuity "Invalid Duration Entered/Duration can not be zero" is calculated successfully # null
+]]></system-out>
+    <system-err><![CDATA[[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: When duration is set as zero, validate it does not calculate annuity and an error is prompt
+-------------------------------------------------------------------(calculate-annuity-bdd-scenarios-and-test-cases;when-duration-is-set-as-zero--validate-it-does-not-calculate-annuity-and-an-error-is-prompt)
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+                                                                                
+
+TEST PENDING: When duration is set as zero, validate it does not calculate annuity and an error is prompt
+---------------------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="When duration is set as zero, validate it does not calculate annuity and an error is prompt" classname="Calculate Annuity BDD Scenarios and Test Cases" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When duration is set as zero, validate it does not calculate annuity and an error is prompt" classname="Calculate Annuity BDD Scenarios and Test Cases" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="The sum of all principal amounts in the schedule entries equals the total loan amount" classname="Generate Plan BDD Scenarios and Test Cases" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+Feature: Generate Plan BDD Scenarios and Test Cases
+
+  Scenario Outline: The sum of all principal amounts in the schedule entries equals the total loan amount # src/test/resources/FeatureFile/generatePlan.feature:3
+    Given details of "<loanAmount>","<nominalRate>",'<duration>' and "<startDate>" to create generate Plan request payload
+    When user invoke rest service to generate Plan
+    Then validate sum of all principal amounts equals the total "<loanAmount>" amount
+
+    Examples: 
+
+  Scenario Outline: The sum of all principal amounts in the schedule entries equals the total loan amount # src/test/resources/FeatureFile/generatePlan.feature:11
+    Given details of "5000.0","5.0",'12' and "2018-01-01" to create generate Plan request payload         # null
+    When user invoke rest service to generate Plan                                                        # null
+    Then validate sum of all principal amounts equals the total "5000.0" amount                           # null
+]]></system-out>
+    <system-err><![CDATA[[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: The sum of all principal amounts in the schedule entries equals the total loan amount
+-------------------------------------------------------------------(generate-plan-bdd-scenarios-and-test-cases;the-sum-of-all-principal-amounts-in-the-schedule-entries-equals-the-total-loan-amount)
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+                                                                                
+
+TEST PENDING: The sum of all principal amounts in the schedule entries equals the total loan amount
+---------------------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="The sum of all principal amounts in the schedule entries equals the total loan amount" classname="Generate Plan BDD Scenarios and Test Cases" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="The sum of all principal amounts in the schedule entries equals the total loan amount" classname="Generate Plan BDD Scenarios and Test Cases" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="The sum of all principal amounts in the schedule entries equals the total loan amount" classname="Generate Plan BDD Scenarios and Test Cases" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+  Scenario Outline: The sum of all principal amounts in the schedule entries equals the total loan amount # src/test/resources/FeatureFile/generatePlan.feature:12
+    Given details of "1200.0","2.0",'10' and "2019-01-01" to create generate Plan request payload         # null
+    When user invoke rest service to generate Plan                                                        # null
+    Then validate sum of all principal amounts equals the total "1200.0" amount                           # null
+]]></system-out>
+    <system-err><![CDATA[[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+                                                                                
+
+TEST PENDING: The sum of all principal amounts in the schedule entries equals the total loan amount
+---------------------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="The sum of all principal amounts in the schedule entries equals the total loan amount" classname="Generate Plan BDD Scenarios and Test Cases" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="The sum of all principal amounts in the schedule entries equals the total loan amount" classname="Generate Plan BDD Scenarios and Test Cases" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="The remaining outstanding principal of the last schedule entry equals always 0.00 €" classname="Generate Plan BDD Scenarios and Test Cases" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+  Scenario Outline: The remaining outstanding principal of the last schedule entry equals always 0.00 € # src/test/resources/FeatureFile/generatePlan.feature:15
+    Given details of "<loanAmount>","<nominalRate>",'<duration>' and "<startDate>" to create generate Plan request payload
+    When user invoke rest service to generate Plan
+    Then validate "<remainingOutstandingPrincipal>" of the last schedule entry equals always 0.00
+
+    Examples: 
+
+  Scenario Outline: The remaining outstanding principal of the last schedule entry equals always 0.00 € # src/test/resources/FeatureFile/generatePlan.feature:23
+    Given details of "5000.0","5.0",'12' and "2018-01-01" to create generate Plan request payload       # null
+    When user invoke rest service to generate Plan                                                      # null
+    Then validate "0.00" of the last schedule entry equals always 0.00                                  # null
+]]></system-out>
+    <system-err><![CDATA[[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: The remaining outstanding principal of the last schedule entry equals always 0.00 €
+-------------------------------------------------------------------(generate-plan-bdd-scenarios-and-test-cases;the-remaining-outstanding-principal-of-the-last-schedule-entry-equals-always-0.00-€)
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+                                                                                
+
+TEST PENDING: The remaining outstanding principal of the last schedule entry equals always 0.00 €
+---------------------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="The remaining outstanding principal of the last schedule entry equals always 0.00 €" classname="Generate Plan BDD Scenarios and Test Cases" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="The remaining outstanding principal of the last schedule entry equals always 0.00 €" classname="Generate Plan BDD Scenarios and Test Cases" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="The remaining outstanding principal of the last schedule entry equals always 0.00 €" classname="Generate Plan BDD Scenarios and Test Cases" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+  Scenario Outline: The remaining outstanding principal of the last schedule entry equals always 0.00 € # src/test/resources/FeatureFile/generatePlan.feature:24
+    Given details of "5000.0","5.0",'3' and "2018-01-01" to create generate Plan request payload        # null
+    When user invoke rest service to generate Plan                                                      # null
+    Then validate "0.00" of the last schedule entry equals always 0.00                                  # null
+]]></system-out>
+    <system-err><![CDATA[[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+                                                                                
+
+TEST PENDING: The remaining outstanding principal of the last schedule entry equals always 0.00 €
+---------------------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="The remaining outstanding principal of the last schedule entry equals always 0.00 €" classname="Generate Plan BDD Scenarios and Test Cases" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="The remaining outstanding principal of the last schedule entry equals always 0.00 €" classname="Generate Plan BDD Scenarios and Test Cases" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="The start date determines the first due date of the calculated schedule. We assume" classname="Generate Plan BDD Scenarios and Test Cases" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+  Scenario Outline: The start date determines the first due date of the calculated schedule. We assume # src/test/resources/FeatureFile/generatePlan.feature:27
+  that each schedule entry is always due on the same day
+    Given details of "<loanAmount>","<nominalRate>",'<duration>' and "<startDate>" to create generate Plan request payload
+    When user invoke rest service to generate Plan
+    Then validate each schedule entry is always due on the same day as the "<startDate>"
+
+    Examples: 
+
+  Scenario Outline: The start date determines the first due date of the calculated schedule. We assume # src/test/resources/FeatureFile/generatePlan.feature:36
+  that each schedule entry is always due on the same day
+    Given details of "5000.0","5.0",'4' and "2018-01-01" to create generate Plan request payload       # null
+    When user invoke rest service to generate Plan                                                     # null
+    Then validate each schedule entry is always due on the same day as the "2018-01-01"                # null
+]]></system-out>
+    <system-err><![CDATA[[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: The start date determines the first due date of the calculated schedule. We assume
+-------------------------------------------------------------------(generate-plan-bdd-scenarios-and-test-cases;the-start-date-determines-the-first-due-date-of-the-calculated-schedule.-we-assume)
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+                                                                                
+
+TEST PENDING: The start date determines the first due date of the calculated schedule. We assume
+---------------------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="The start date determines the first due date of the calculated schedule. We assume" classname="Generate Plan BDD Scenarios and Test Cases" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="The start date determines the first due date of the calculated schedule. We assume" classname="Generate Plan BDD Scenarios and Test Cases" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="The start date determines the first due date of the calculated schedule. We assume" classname="Generate Plan BDD Scenarios and Test Cases" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+  Scenario Outline: The start date determines the first due date of the calculated schedule. We assume # src/test/resources/FeatureFile/generatePlan.feature:37
+  that each schedule entry is always due on the same day
+    Given details of "8000.0","4.0",'6' and "2018-02-04" to create generate Plan request payload       # null
+    When user invoke rest service to generate Plan                                                     # null
+    Then validate each schedule entry is always due on the same day as the "2018-02-04"                # null
+]]></system-out>
+    <system-err><![CDATA[[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+                                                                                
+
+TEST PENDING: The start date determines the first due date of the calculated schedule. We assume
+---------------------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="The start date determines the first due date of the calculated schedule. We assume" classname="Generate Plan BDD Scenarios and Test Cases" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="The start date determines the first due date of the calculated schedule. We assume" classname="Generate Plan BDD Scenarios and Test Cases" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="The remaining outstanding principal of one entry equals the initial outstanding" classname="Generate Plan BDD Scenarios and Test Cases" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+  Scenario Outline: The remaining outstanding principal of one entry equals the initial outstanding # src/test/resources/FeatureFile/generatePlan.feature:40
+  principal of the following month
+    Given details of "<loanAmount>","<nominalRate>",'<duration>' and "<startDate>" to create generate Plan request payload
+    When user invoke rest service to generate Plan
+    Then validate remaining outstanding principal of one entry equals the initial outstanding principal of the following month
+
+    Examples: 
+
+  Scenario Outline: The remaining outstanding principal of one entry equals the initial outstanding                            # src/test/resources/FeatureFile/generatePlan.feature:49
+  principal of the following month
+    Given details of "5000.00","5.0",'4' and "2018-01-01" to create generate Plan request payload                              # null
+    When user invoke rest service to generate Plan                                                                             # null
+    Then validate remaining outstanding principal of one entry equals the initial outstanding principal of the following month # null
+]]></system-out>
+    <system-err><![CDATA[[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: The remaining outstanding principal of one entry equals the initial outstanding
+-------------------------------------------------------------------(generate-plan-bdd-scenarios-and-test-cases;the-remaining-outstanding-principal-of-one-entry-equals-the-initial-outstanding)
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+                                                                                
+
+TEST PENDING: The remaining outstanding principal of one entry equals the initial outstanding
+---------------------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="The remaining outstanding principal of one entry equals the initial outstanding" classname="Generate Plan BDD Scenarios and Test Cases" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="The remaining outstanding principal of one entry equals the initial outstanding" classname="Generate Plan BDD Scenarios and Test Cases" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="The total payment amount per month in a borrower schedule should equal the value" classname="Generate Plan BDD Scenarios and Test Cases" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+  Scenario Outline: The total payment amount per month in a borrower schedule should equal the value # src/test/resources/FeatureFile/generatePlan.feature:52
+  from the annuity call
+    Given details of "<loanAmount>","<nominalRate>",'<duration>' and "<startDate>" to create generate Plan request payload
+    When user invoke rest service to generate Plan
+    Then validate borrowerPaymentAmount of each month should be equal except the last month which can differ
+
+    Examples: 
+
+  Scenario Outline: The total payment amount per month in a borrower schedule should equal the value         # src/test/resources/FeatureFile/generatePlan.feature:61
+  from the annuity call
+    Given details of "5000.00","5.0",'4' and "2018-01-01" to create generate Plan request payload            # null
+    When user invoke rest service to generate Plan                                                           # null
+    Then validate borrowerPaymentAmount of each month should be equal except the last month which can differ # null
+]]></system-out>
+    <system-err><![CDATA[[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: The total payment amount per month in a borrower schedule should equal the value
+-------------------------------------------------------------------(generate-plan-bdd-scenarios-and-test-cases;the-total-payment-amount-per-month-in-a-borrower-schedule-should-equal-the-value)
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+                                                                                
+
+TEST PENDING: The total payment amount per month in a borrower schedule should equal the value
+---------------------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="The total payment amount per month in a borrower schedule should equal the value" classname="Generate Plan BDD Scenarios and Test Cases" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="The total payment amount per month in a borrower schedule should equal the value" classname="Generate Plan BDD Scenarios and Test Cases" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

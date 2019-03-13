@@ -1,84 +1,68 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="11" time="2.043646">
-<testcase classname="Calculate Annuity BDD Scenarios and Test Cases" name="Calculate Annuity from /calc-annuity rest service" time="1.695408">
-<system-out><![CDATA[Given details of "5000" , "5.0" and '24' to create calculate annuity request payload.passed
-When user invoke rest service to calculate annuity..........................passed
-Then validate correct annuity "219.36" is calculated successfully...........passed
-]]></system-out>
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="11" tests="11" time="0.789707">
+<testcase classname="Calculate Annuity BDD Scenarios and Test Cases" name="Calculate Annuity from /calc-annuity rest service" time="0.715779">
+<skipped><![CDATA[Given details of "5000" , "5.0" and '24' to create calculate annuity request payload.undefined
+When user invoke rest service to calculate annuity..........................undefined
+Then validate correct annuity "219.36" is calculated successfully...........undefined
+]]></skipped>
 </testcase>
-<testcase classname="Calculate Annuity BDD Scenarios and Test Cases" name="Calculate Annuity from /calc-annuity rest service 2" time="0.025189">
-<system-out><![CDATA[Given details of "5000" , "5.0" and '12' to create calculate annuity request payload.passed
-When user invoke rest service to calculate annuity..........................passed
-Then validate correct annuity "428.04" is calculated successfully...........passed
-]]></system-out>
+<testcase classname="Calculate Annuity BDD Scenarios and Test Cases" name="Calculate Annuity from /calc-annuity rest service 2" time="0.006989">
+<skipped><![CDATA[Given details of "5000" , "5.0" and '12' to create calculate annuity request payload.undefined
+When user invoke rest service to calculate annuity..........................undefined
+Then validate correct annuity "428.04" is calculated successfully...........undefined
+]]></skipped>
 </testcase>
-<testcase classname="Calculate Annuity BDD Scenarios and Test Cases" name="When duration is set as zero, validate it does not calculate annuity and an error is prompt" time="0.030854">
-<failure message="org.junit.ComparisonFailure: expected:&lt;[Invalid Duration Entered/Duration can not be zero]&gt; but was:&lt;[92233720368547758.07]&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at com.lendico.assignment.stepdefinition.CalculateAnnuityTestCase.validateExpectedAnnuity(CalculateAnnuityTestCase.java:45)&#13;&#10;&#9;at ✽.validate correct annuity &quot;Invalid Duration Entered/Duration can not be zero&quot; is calculated successfully(src/test/resources/FeatureFile/calculateAnnuity.feature:18)&#13;&#10;"><![CDATA[Given details of "5000" , "5.0" and '0' to create calculate annuity request payload.passed
-When user invoke rest service to calculate annuity..........................passed
-Then validate correct annuity "Invalid Duration Entered/Duration can not be zero" is calculated successfully.failed
-
-StackTrace:
-org.junit.ComparisonFailure: expected:<[Invalid Duration Entered/Duration can not be zero]> but was:<[92233720368547758.07]>
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at com.lendico.assignment.stepdefinition.CalculateAnnuityTestCase.validateExpectedAnnuity(CalculateAnnuityTestCase.java:45)
-	at ✽.validate correct annuity "Invalid Duration Entered/Duration can not be zero" is calculated successfully(src/test/resources/FeatureFile/calculateAnnuity.feature:18)
-]]></failure>
+<testcase classname="Calculate Annuity BDD Scenarios and Test Cases" name="When duration is set as zero, validate it does not calculate annuity and an error is prompt" time="0.00973">
+<skipped><![CDATA[Given details of "5000" , "5.0" and '0' to create calculate annuity request payload.undefined
+When user invoke rest service to calculate annuity..........................undefined
+Then validate correct annuity "Invalid Duration Entered/Duration can not be zero" is calculated successfully.undefined
+]]></skipped>
 </testcase>
-<testcase classname="Generate Plan BDD Scenarios and Test Cases" name="The sum of all principal amounts in the schedule entries equals the total loan amount" time="0.04643">
-<system-out><![CDATA[Given details of "5000.0","5.0",'12' and "2018-01-01" to create generate Plan request payload.passed
-When user invoke rest service to generate Plan..............................passed
-Then validate sum of all principal amounts equals the total "5000.0" amount.passed
-]]></system-out>
+<testcase classname="Generate Plan BDD Scenarios and Test Cases" name="The sum of all principal amounts in the schedule entries equals the total loan amount" time="0.014077">
+<skipped><![CDATA[Given details of "5000.0","5.0",'12' and "2018-01-01" to create generate Plan request payload.undefined
+When user invoke rest service to generate Plan..............................undefined
+Then validate sum of all principal amounts equals the total "5000.0" amount.undefined
+]]></skipped>
 </testcase>
-<testcase classname="Generate Plan BDD Scenarios and Test Cases" name="The sum of all principal amounts in the schedule entries equals the total loan amount 2" time="0.022212">
-<system-out><![CDATA[Given details of "1200.0","2.0",'10' and "2019-01-01" to create generate Plan request payload.passed
-When user invoke rest service to generate Plan..............................passed
-Then validate sum of all principal amounts equals the total "1200.0" amount.passed
-]]></system-out>
+<testcase classname="Generate Plan BDD Scenarios and Test Cases" name="The sum of all principal amounts in the schedule entries equals the total loan amount 2" time="0.004778">
+<skipped><![CDATA[Given details of "1200.0","2.0",'10' and "2019-01-01" to create generate Plan request payload.undefined
+When user invoke rest service to generate Plan..............................undefined
+Then validate sum of all principal amounts equals the total "1200.0" amount.undefined
+]]></skipped>
 </testcase>
-<testcase classname="Generate Plan BDD Scenarios and Test Cases" name="The remaining outstanding principal of the last schedule entry equals always 0.00 €" time="0.028979">
-<system-out><![CDATA[Given details of "5000.0","5.0",'12' and "2018-01-01" to create generate Plan request payload.passed
-When user invoke rest service to generate Plan..............................passed
-Then validate "0.00" of the last schedule entry equals always 0.00..........passed
-]]></system-out>
+<testcase classname="Generate Plan BDD Scenarios and Test Cases" name="The remaining outstanding principal of the last schedule entry equals always 0.00 €" time="0.010012">
+<skipped><![CDATA[Given details of "5000.0","5.0",'12' and "2018-01-01" to create generate Plan request payload.undefined
+When user invoke rest service to generate Plan..............................undefined
+Then validate "0.00" of the last schedule entry equals always 0.00..........undefined
+]]></skipped>
 </testcase>
-<testcase classname="Generate Plan BDD Scenarios and Test Cases" name="The remaining outstanding principal of the last schedule entry equals always 0.00 € 2" time="0.017697">
-<failure message="java.lang.AssertionError: expected:&lt;0.0&gt; but was:&lt;0.01&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:118)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at com.lendico.assignment.stepdefinition.GeneratePlanTestCases.validateRemainingOutstandingPrincipal(GeneratePlanTestCases.java:63)&#13;&#10;&#9;at ✽.validate &quot;0.00&quot; of the last schedule entry equals always 0.00(src/test/resources/FeatureFile/generatePlan.feature:19)&#13;&#10;"><![CDATA[Given details of "5000.0","5.0",'3' and "2018-01-01" to create generate Plan request payload.passed
-When user invoke rest service to generate Plan..............................passed
-Then validate "0.00" of the last schedule entry equals always 0.00..........failed
-
-StackTrace:
-java.lang.AssertionError: expected:<0.0> but was:<0.01>
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotEquals(Assert.java:834)
-	at org.junit.Assert.assertEquals(Assert.java:118)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at com.lendico.assignment.stepdefinition.GeneratePlanTestCases.validateRemainingOutstandingPrincipal(GeneratePlanTestCases.java:63)
-	at ✽.validate "0.00" of the last schedule entry equals always 0.00(src/test/resources/FeatureFile/generatePlan.feature:19)
-]]></failure>
+<testcase classname="Generate Plan BDD Scenarios and Test Cases" name="The remaining outstanding principal of the last schedule entry equals always 0.00 € 2" time="0.004534">
+<skipped><![CDATA[Given details of "5000.0","5.0",'3' and "2018-01-01" to create generate Plan request payload.undefined
+When user invoke rest service to generate Plan..............................undefined
+Then validate "0.00" of the last schedule entry equals always 0.00..........undefined
+]]></skipped>
 </testcase>
-<testcase classname="Generate Plan BDD Scenarios and Test Cases" name="The start date determines the first due date of the calculated schedule. We assume" time="0.023462">
-<system-out><![CDATA[Given details of "5000.0","5.0",'4' and "2018-01-01" to create generate Plan request payload.passed
-When user invoke rest service to generate Plan..............................passed
-Then validate each schedule entry is always due on the same day as the "2018-01-01".passed
-]]></system-out>
+<testcase classname="Generate Plan BDD Scenarios and Test Cases" name="The start date determines the first due date of the calculated schedule. We assume" time="0.006827">
+<skipped><![CDATA[Given details of "5000.0","5.0",'4' and "2018-01-01" to create generate Plan request payload.undefined
+When user invoke rest service to generate Plan..............................undefined
+Then validate each schedule entry is always due on the same day as the "2018-01-01".undefined
+]]></skipped>
 </testcase>
-<testcase classname="Generate Plan BDD Scenarios and Test Cases" name="The start date determines the first due date of the calculated schedule. We assume 2" time="0.01715">
-<system-out><![CDATA[Given details of "8000.0","4.0",'6' and "2018-02-04" to create generate Plan request payload.passed
-When user invoke rest service to generate Plan..............................passed
-Then validate each schedule entry is always due on the same day as the "2018-02-04".passed
-]]></system-out>
+<testcase classname="Generate Plan BDD Scenarios and Test Cases" name="The start date determines the first due date of the calculated schedule. We assume 2" time="0.004345">
+<skipped><![CDATA[Given details of "8000.0","4.0",'6' and "2018-02-04" to create generate Plan request payload.undefined
+When user invoke rest service to generate Plan..............................undefined
+Then validate each schedule entry is always due on the same day as the "2018-02-04".undefined
+]]></skipped>
 </testcase>
-<testcase classname="Generate Plan BDD Scenarios and Test Cases" name="The remaining outstanding principal of one entry equals the initial outstanding" time="0.019073">
-<system-out><![CDATA[Given details of "5000.00","5.0",'4' and "2018-01-01" to create generate Plan request payload.passed
-When user invoke rest service to generate Plan..............................passed
-Then validate remaining outstanding principal of one entry equals the initial outstanding principal of the following month.passed
-]]></system-out>
+<testcase classname="Generate Plan BDD Scenarios and Test Cases" name="The remaining outstanding principal of one entry equals the initial outstanding" time="0.006047">
+<skipped><![CDATA[Given details of "5000.00","5.0",'4' and "2018-01-01" to create generate Plan request payload.undefined
+When user invoke rest service to generate Plan..............................undefined
+Then validate remaining outstanding principal of one entry equals the initial outstanding principal of the following month.undefined
+]]></skipped>
 </testcase>
-<testcase classname="Generate Plan BDD Scenarios and Test Cases" name="The total payment amount per month in a borrower schedule should equal the value" time="0.117192">
-<system-out><![CDATA[Given details of "5000.00","5.0",'4' and "2018-01-01" to create generate Plan request payload.passed
-When user invoke rest service to generate Plan..............................passed
-Then validate borrowerPaymentAmount of each month should be equal except the last month which can differ.passed
-]]></system-out>
+<testcase classname="Generate Plan BDD Scenarios and Test Cases" name="The total payment amount per month in a borrower schedule should equal the value" time="0.006589">
+<skipped><![CDATA[Given details of "5000.00","5.0",'4' and "2018-01-01" to create generate Plan request payload.undefined
+When user invoke rest service to generate Plan..............................undefined
+Then validate borrowerPaymentAmount of each month should be equal except the last month which can differ.undefined
+]]></skipped>
 </testcase>
 </testsuite>

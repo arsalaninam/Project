@@ -12,58 +12,29 @@
         "steps": [
           {
             "result": {
-              "duration": 135433732,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 5,
             "name": "details of \"5000\" , \"5.0\" and \u002724\u0027 to create calculate annuity request payload",
-            "match": {
-              "arguments": [
-                {
-                  "val": "5000",
-                  "offset": 12
-                },
-                {
-                  "val": "5.0",
-                  "offset": 21
-                },
-                {
-                  "val": "24",
-                  "offset": 31
-                }
-              ],
-              "location": "CalculateAnnuityTestCase.createJsonRequestPayloadOfCalcAnnuity(String,String,int)"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1275038516,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 6,
             "name": "user invoke rest service to calculate annuity",
-            "match": {
-              "location": "CalculateAnnuityTestCase.invokeRestServiceToCalcAnnuity()"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 2298858,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 7,
             "name": "validate correct annuity \"219.36\" is calculated successfully",
-            "match": {
-              "arguments": [
-                {
-                  "val": "219.36",
-                  "offset": 26
-                }
-              ],
-              "location": "CalculateAnnuityTestCase.validateExpectedAnnuity(String)"
-            },
+            "match": {},
             "keyword": "Then "
           }
         ]
@@ -78,58 +49,29 @@
         "steps": [
           {
             "result": {
-              "duration": 2209413,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 5,
             "name": "details of \"5000\" , \"5.0\" and \u002712\u0027 to create calculate annuity request payload",
-            "match": {
-              "arguments": [
-                {
-                  "val": "5000",
-                  "offset": 12
-                },
-                {
-                  "val": "5.0",
-                  "offset": 21
-                },
-                {
-                  "val": "12",
-                  "offset": 31
-                }
-              ],
-              "location": "CalculateAnnuityTestCase.createJsonRequestPayloadOfCalcAnnuity(String,String,int)"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 17927192,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 6,
             "name": "user invoke rest service to calculate annuity",
-            "match": {
-              "location": "CalculateAnnuityTestCase.invokeRestServiceToCalcAnnuity()"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 495036,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 7,
             "name": "validate correct annuity \"428.04\" is calculated successfully",
-            "match": {
-              "arguments": [
-                {
-                  "val": "428.04",
-                  "offset": 26
-                }
-              ],
-              "location": "CalculateAnnuityTestCase.validateExpectedAnnuity(String)"
-            },
+            "match": {},
             "keyword": "Then "
           }
         ]
@@ -144,59 +86,29 @@
         "steps": [
           {
             "result": {
-              "duration": 1415197,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 16,
             "name": "details of \"5000\" , \"5.0\" and \u00270\u0027 to create calculate annuity request payload",
-            "match": {
-              "arguments": [
-                {
-                  "val": "5000",
-                  "offset": 12
-                },
-                {
-                  "val": "5.0",
-                  "offset": 21
-                },
-                {
-                  "val": "0",
-                  "offset": 31
-                }
-              ],
-              "location": "CalculateAnnuityTestCase.createJsonRequestPayloadOfCalcAnnuity(String,String,int)"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 14800189,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 17,
             "name": "user invoke rest service to calculate annuity",
-            "match": {
-              "location": "CalculateAnnuityTestCase.invokeRestServiceToCalcAnnuity()"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Invalid Duration Entered/Duration can not be zero]\u003e but was:\u003c[92233720368547758.07]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat com.lendico.assignment.stepdefinition.CalculateAnnuityTestCase.validateExpectedAnnuity(CalculateAnnuityTestCase.java:45)\r\n\tat ✽.validate correct annuity \"Invalid Duration Entered/Duration can not be zero\" is calculated successfully(src/test/resources/FeatureFile/calculateAnnuity.feature:18)\r\n",
-              "duration": 1213173,
-              "status": "failed"
+              "status": "undefined"
             },
             "line": 18,
             "name": "validate correct annuity \"Invalid Duration Entered/Duration can not be zero\" is calculated successfully",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Invalid Duration Entered/Duration can not be zero",
-                  "offset": 26
-                }
-              ],
-              "location": "CalculateAnnuityTestCase.validateExpectedAnnuity(String)"
-            },
+            "match": {},
             "keyword": "Then "
           }
         ]
@@ -222,62 +134,29 @@
         "steps": [
           {
             "result": {
-              "duration": 2513220,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 5,
             "name": "details of \"5000.0\",\"5.0\",\u002712\u0027 and \"2018-01-01\" to create generate Plan request payload",
-            "match": {
-              "arguments": [
-                {
-                  "val": "5000.0",
-                  "offset": 12
-                },
-                {
-                  "val": "5.0",
-                  "offset": 21
-                },
-                {
-                  "val": "12",
-                  "offset": 27
-                },
-                {
-                  "val": "2018-01-01",
-                  "offset": 36
-                }
-              ],
-              "location": "GeneratePlanTestCases.createJsonRequestPayloadOfGeneratePlan(String,String,int,String)"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 30201310,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 6,
             "name": "user invoke rest service to generate Plan",
-            "match": {
-              "location": "GeneratePlanTestCases.invokeRestServiceToCalcAnnuity()"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 678040,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 7,
             "name": "validate sum of all principal amounts equals the total \"5000.0\" amount",
-            "match": {
-              "arguments": [
-                {
-                  "val": "5000.0",
-                  "offset": 56
-                }
-              ],
-              "location": "GeneratePlanTestCases.validateGeneratePlanPrincipal(String)"
-            },
+            "match": {},
             "keyword": "Then "
           }
         ]
@@ -292,62 +171,29 @@
         "steps": [
           {
             "result": {
-              "duration": 2479292,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 5,
             "name": "details of \"1200.0\",\"2.0\",\u002710\u0027 and \"2019-01-01\" to create generate Plan request payload",
-            "match": {
-              "arguments": [
-                {
-                  "val": "1200.0",
-                  "offset": 12
-                },
-                {
-                  "val": "2.0",
-                  "offset": 21
-                },
-                {
-                  "val": "10",
-                  "offset": 27
-                },
-                {
-                  "val": "2019-01-01",
-                  "offset": 36
-                }
-              ],
-              "location": "GeneratePlanTestCases.createJsonRequestPayloadOfGeneratePlan(String,String,int,String)"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 15465892,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 6,
             "name": "user invoke rest service to generate Plan",
-            "match": {
-              "location": "GeneratePlanTestCases.invokeRestServiceToCalcAnnuity()"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 427695,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 7,
             "name": "validate sum of all principal amounts equals the total \"1200.0\" amount",
-            "match": {
-              "arguments": [
-                {
-                  "val": "1200.0",
-                  "offset": 56
-                }
-              ],
-              "location": "GeneratePlanTestCases.validateGeneratePlanPrincipal(String)"
-            },
+            "match": {},
             "keyword": "Then "
           }
         ]
@@ -362,62 +208,29 @@
         "steps": [
           {
             "result": {
-              "duration": 1807936,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 17,
             "name": "details of \"5000.0\",\"5.0\",\u002712\u0027 and \"2018-01-01\" to create generate Plan request payload",
-            "match": {
-              "arguments": [
-                {
-                  "val": "5000.0",
-                  "offset": 12
-                },
-                {
-                  "val": "5.0",
-                  "offset": 21
-                },
-                {
-                  "val": "12",
-                  "offset": 27
-                },
-                {
-                  "val": "2018-01-01",
-                  "offset": 36
-                }
-              ],
-              "location": "GeneratePlanTestCases.createJsonRequestPayloadOfGeneratePlan(String,String,int,String)"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 18191931,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 18,
             "name": "user invoke rest service to generate Plan",
-            "match": {
-              "location": "GeneratePlanTestCases.invokeRestServiceToCalcAnnuity()"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 489895,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 19,
             "name": "validate \"0.00\" of the last schedule entry equals always 0.00",
-            "match": {
-              "arguments": [
-                {
-                  "val": "0.00",
-                  "offset": 10
-                }
-              ],
-              "location": "GeneratePlanTestCases.validateRemainingOutstandingPrincipal(String)"
-            },
+            "match": {},
             "keyword": "Then "
           }
         ]
@@ -432,63 +245,29 @@
         "steps": [
           {
             "result": {
-              "duration": 1839806,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 17,
             "name": "details of \"5000.0\",\"5.0\",\u00273\u0027 and \"2018-01-01\" to create generate Plan request payload",
-            "match": {
-              "arguments": [
-                {
-                  "val": "5000.0",
-                  "offset": 12
-                },
-                {
-                  "val": "5.0",
-                  "offset": 21
-                },
-                {
-                  "val": "3",
-                  "offset": 27
-                },
-                {
-                  "val": "2018-01-01",
-                  "offset": 35
-                }
-              ],
-              "location": "GeneratePlanTestCases.createJsonRequestPayloadOfGeneratePlan(String,String,int,String)"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 10035403,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 18,
             "name": "user invoke rest service to generate Plan",
-            "match": {
-              "location": "GeneratePlanTestCases.invokeRestServiceToCalcAnnuity()"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: expected:\u003c0.0\u003e but was:\u003c0.01\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat com.lendico.assignment.stepdefinition.GeneratePlanTestCases.validateRemainingOutstandingPrincipal(GeneratePlanTestCases.java:63)\r\n\tat ✽.validate \"0.00\" of the last schedule entry equals always 0.00(src/test/resources/FeatureFile/generatePlan.feature:19)\r\n",
-              "duration": 537703,
-              "status": "failed"
+              "status": "undefined"
             },
             "line": 19,
             "name": "validate \"0.00\" of the last schedule entry equals always 0.00",
-            "match": {
-              "arguments": [
-                {
-                  "val": "0.00",
-                  "offset": 10
-                }
-              ],
-              "location": "GeneratePlanTestCases.validateRemainingOutstandingPrincipal(String)"
-            },
+            "match": {},
             "keyword": "Then "
           }
         ]
@@ -503,62 +282,29 @@
         "steps": [
           {
             "result": {
-              "duration": 1380241,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 30,
             "name": "details of \"5000.0\",\"5.0\",\u00274\u0027 and \"2018-01-01\" to create generate Plan request payload",
-            "match": {
-              "arguments": [
-                {
-                  "val": "5000.0",
-                  "offset": 12
-                },
-                {
-                  "val": "5.0",
-                  "offset": 21
-                },
-                {
-                  "val": "4",
-                  "offset": 27
-                },
-                {
-                  "val": "2018-01-01",
-                  "offset": 35
-                }
-              ],
-              "location": "GeneratePlanTestCases.createJsonRequestPayloadOfGeneratePlan(String,String,int,String)"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 15708526,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 31,
             "name": "user invoke rest service to generate Plan",
-            "match": {
-              "location": "GeneratePlanTestCases.invokeRestServiceToCalcAnnuity()"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 954602,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 32,
             "name": "validate each schedule entry is always due on the same day as the \"2018-01-01\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "2018-01-01",
-                  "offset": 67
-                }
-              ],
-              "location": "GeneratePlanTestCases.validateMonthlyDueDate(String)"
-            },
+            "match": {},
             "keyword": "Then "
           }
         ]
@@ -573,62 +319,29 @@
         "steps": [
           {
             "result": {
-              "duration": 1732369,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 30,
             "name": "details of \"8000.0\",\"4.0\",\u00276\u0027 and \"2018-02-04\" to create generate Plan request payload",
-            "match": {
-              "arguments": [
-                {
-                  "val": "8000.0",
-                  "offset": 12
-                },
-                {
-                  "val": "4.0",
-                  "offset": 21
-                },
-                {
-                  "val": "6",
-                  "offset": 27
-                },
-                {
-                  "val": "2018-02-04",
-                  "offset": 35
-                }
-              ],
-              "location": "GeneratePlanTestCases.createJsonRequestPayloadOfGeneratePlan(String,String,int,String)"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 11135997,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 31,
             "name": "user invoke rest service to generate Plan",
-            "match": {
-              "location": "GeneratePlanTestCases.invokeRestServiceToCalcAnnuity()"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1332434,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 32,
             "name": "validate each schedule entry is always due on the same day as the \"2018-02-04\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "2018-02-04",
-                  "offset": 67
-                }
-              ],
-              "location": "GeneratePlanTestCases.validateMonthlyDueDate(String)"
-            },
+            "match": {},
             "keyword": "Then "
           }
         ]
@@ -643,56 +356,29 @@
         "steps": [
           {
             "result": {
-              "duration": 1893268,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 43,
             "name": "details of \"5000.00\",\"5.0\",\u00274\u0027 and \"2018-01-01\" to create generate Plan request payload",
-            "match": {
-              "arguments": [
-                {
-                  "val": "5000.00",
-                  "offset": 12
-                },
-                {
-                  "val": "5.0",
-                  "offset": 22
-                },
-                {
-                  "val": "4",
-                  "offset": 28
-                },
-                {
-                  "val": "2018-01-01",
-                  "offset": 36
-                }
-              ],
-              "location": "GeneratePlanTestCases.createJsonRequestPayloadOfGeneratePlan(String,String,int,String)"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 12081346,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 44,
             "name": "user invoke rest service to generate Plan",
-            "match": {
-              "location": "GeneratePlanTestCases.invokeRestServiceToCalcAnnuity()"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 447743,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 45,
             "name": "validate remaining outstanding principal of one entry equals the initial outstanding principal of the following month",
-            "match": {
-              "location": "GeneratePlanTestCases.validateRemOutPrincipal()"
-            },
+            "match": {},
             "keyword": "Then "
           }
         ]
@@ -707,56 +393,29 @@
         "steps": [
           {
             "result": {
-              "duration": 1276915,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 55,
             "name": "details of \"5000.00\",\"5.0\",\u00274\u0027 and \"2018-01-01\" to create generate Plan request payload",
-            "match": {
-              "arguments": [
-                {
-                  "val": "5000.00",
-                  "offset": 12
-                },
-                {
-                  "val": "5.0",
-                  "offset": 22
-                },
-                {
-                  "val": "4",
-                  "offset": 28
-                },
-                {
-                  "val": "2018-01-01",
-                  "offset": 36
-                }
-              ],
-              "location": "GeneratePlanTestCases.createJsonRequestPayloadOfGeneratePlan(String,String,int,String)"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 110311297,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 56,
             "name": "user invoke rest service to generate Plan",
-            "match": {
-              "location": "GeneratePlanTestCases.invokeRestServiceToCalcAnnuity()"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 307405,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 57,
             "name": "validate borrowerPaymentAmount of each month should be equal except the last month which can differ",
-            "match": {
-              "location": "GeneratePlanTestCases.validateBorrowerPaymentAmount()"
-            },
+            "match": {},
             "keyword": "Then "
           }
         ]
